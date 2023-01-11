@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="title">EDIT GAME</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="fields" (ngSubmit)="editForm()">
+    <ion-item>
+      <ion-label>Title</ion-label>
+      <ion-input type="text" formControlName="title"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Description</ion-label>
+      <ion-textarea formControlName="description"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <ion-label>Rating</ion-label>
+      <ion-textarea formControlName="rating"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <ion-label>Score</ion-label>
+      <ion-textarea formControlName="score"></ion-textarea>
+    </ion-item>
+    <ion-button shape="round" color="primary" fill="outline" type="submit" [disabled]="!fields.valid">Save</ion-button>
+  </form>
+</ion-content>

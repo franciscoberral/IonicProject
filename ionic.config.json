@@ -1,0 +1,7 @@
+{
+  "name": "GameDB",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

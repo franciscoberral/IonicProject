@@ -1,0 +1,39 @@
+ion-toolbar {
+    --background: #151515;
+    --color: #F39C12;
+}
+
+ion-searchbar {
+    --background: #202020;
+}
+
+ion-content {
+    --background: #000000;
+}
+
+ion-fab-button {
+    --background: #F39C12;
+}
+
+ion-list {
+    --background: #252525;
+}
+
+ion-item {
+    --background: #252525;
+    --color: white;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.iTitle {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.iContent {
+    font-size: 14px;
+}
