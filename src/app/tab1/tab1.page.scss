@@ -16,12 +16,22 @@ ion-fab-button {
 }
 
 ion-list {
-    --background: #252525;
+    --background: #000000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+ion-item-sliding {
+    background-color: #000000
 }
 
 ion-item {
     --background: #252525;
     --color: white;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
 }
 
 .title {
